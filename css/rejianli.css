@@ -1,0 +1,369 @@
+h1,h2,h3,h4,h5,h6,div,ul,li{
+    padding: 0;
+    margin: 0;
+}
+
+.mainbox{
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+}
+
+/*左边部分*/
+.messleft{
+
+    width: 496px;
+    margin-left: 56px;
+
+}
+
+.figure{
+    position: relative;
+    width: 456px;
+    height: 256px;
+    margin: 20px;
+
+}
+.figure img {
+    width: 180px;
+    height: 200px;
+    border-radius: 30px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+
+}
+
+.name{
+
+    position:absolute;
+    width: 170px;
+    right: 0px;
+    top: 20%;
+}
+
+#name1{
+    font-size: 30px;
+    font-weight: bold;
+
+
+}
+
+#name2{
+    margin-top: 20px;
+    /*color: #fdc003;*/
+
+}
+
+#name2 span{
+    font-weight: bold;
+}
+
+.about-me {
+    margin: 30px 0  30px 30px;
+}
+.about-me-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 6px  solid  #fdc003 ;
+}
+.text1{
+    margin-top: 20px;
+    color: #767271;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.text2{
+    margin-top: 30px;
+    color: #767271;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.experience{
+    position: relative;
+    margin: 50px 0  30px 30px;
+}
+
+
+.experience-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 6px  solid  #fdc003 ;
+}
+
+
+.work-experience{
+    margin-left: 30px;
+    padding-left: 20px ;
+    border-left: solid #fdc003;
+    border-left-width: 4px;
+
+}
+
+.ex-one{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 20px;
+    color: #767271;
+}
+.ex-one-name{
+    font-weight: bold;
+}
+
+.ex-two{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 20px;
+    color: #767271;
+}
+
+.ex-two-name{
+    font-weight: bold;
+}
+
+.ex-three{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 20px;
+    color: #767271;
+}
+
+.ex-three-name{
+    font-weight: bold;
+}
+
+
+.cricle1{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color:#fdc003 ;
+    border-radius: 100%;
+    left: 21px;
+    top: 28px;
+}
+
+.cricle2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color:#fdc003 ;
+    border-radius: 100%;
+    left: 21px;
+    top: 40%;
+}
+
+.cricle3{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color:#fdc003 ;
+    border-radius: 100%;
+    left: 21px;
+    top: 75%;
+}
+
+.interest{
+    margin: 50px 0  30px 30px;
+}
+.interest-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 6px  solid  #fdc003 ;
+    margin-bottom: 30px;
+}
+
+.interest-menu{
+    margin-left: 30px;
+}
+.interest span{
+    border-right: 3px ridge #fdc003;
+    padding-right: 10px;
+    margin-right: 20px;
+
+
+}
+
+/*右边部分*/
+.messright{
+    /*display: block;*/
+    position: absolute;
+    width: 290px;
+
+    margin-top: 104px;
+    margin-right: 60px;
+    /*float: right;*/
+    right: 0;
+    top: 0;
+}
+
+
+.contentme{
+    margin: 10px 0  30px 30px;
+}
+
+
+.contentme-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 6px  solid  #fdc003 ;
+    margin-bottom: 30px;
+}
+
+.contentme li{
+    list-style: none;
+    line-height: 25px;
+}
+
+.contentme li i{
+    color: #fdc003;
+}
+
+.contentme span{
+    color: #767271;
+}
+
+.skills{
+    margin: 42px 0  30px 30px;
+}
+
+.skills-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 6px  solid  #fdc003 ;
+    margin-bottom: 30px;
+}
+
+.skills li{
+    list-style: none;
+    line-height: 40px;
+    color: #767271;
+
+}
+
+.skills li i{
+    color: #fdc003;
+}
+
+.progress{
+    width:200px;
+    height: 10px;
+    border: 1px solid #fdc003;
+}
+
+.html{
+    width: 130px;
+    height: 10px;
+    background-color: #fdc003;
+}
+.css{
+    width: 140px;
+    height: 10px;
+    background-color: #fdc003;
+}
+
+.js{
+    width: 80px;
+    height: 10px;
+    background-color: #fdc003;
+}
+
+.git{
+    width: 110px;
+    height: 10px;
+    background-color: #fdc003;
+}
+
+
+.education{
+    margin: 43px 0  30px 30px;
+
+}
+
+.education ul li{
+    list-style: none;
+    line-height: 40px;
+    color: #767271;
+
+}
+
+.education  ul li div{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-right: 10px;
+    border-radius: 100%;
+    background-color: #fdc003;
+}
+
+.win{
+    margin-top: 32px;
+}
+
+.expertise{
+    margin: 43px 0  30px 30px;
+}
+
+.expertise-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 6px  solid  #fdc003 ;
+    margin-bottom: 30px;
+}
+
+.ep1{
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    z-index: -1;
+    background-color: #ccc;
+    /*border: 1px solid black;*/
+    border-radius: 100%;
+    opacity: 0.5;
+}
+
+
+.ep2{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: -10px;
+    left: 30px;
+    /*z-index: -2;*/
+    background-color: #fdc003;
+    line-height: 80px;
+    border-radius: 100%;
+    text-align: center;
+    /*border: 1px solid black;*/
+    opacity: 0.6;
+}
+
+.ep3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 100px;
+    background-color: #ccc;
+    line-height: 40px;
+    text-align: center;
+    /*border: 1px solid black;*/
+    border-radius: 100%;
+    opacity: 0.5;
+}
+
+
+.goodat{
+    position: relative;
+
+}
